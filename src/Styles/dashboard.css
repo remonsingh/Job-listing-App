@@ -1,0 +1,11 @@
+.card {
+    border: 1px solid lightblue;
+   }
+   
+   .card_cont {
+       display: grid;
+       grid-template-columns: repeat(3, 30%);
+       grid-gap: 2%;
+       width: 80%;
+       margin: auto;
+   }
